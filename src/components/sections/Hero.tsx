@@ -74,7 +74,7 @@ export const Hero: React.FC = () => {
                 size="lg"
                 variant="translucent"
                 onClick={() => console.log('Join waitlist clicked')}
-                className="min-w-[200px]"
+                className="min-w-[200px] font-sans"
               >
                 Join Our Waitlist
               </Button>
@@ -82,7 +82,7 @@ export const Hero: React.FC = () => {
                 size="lg"
                 variant="translucent"
                 onClick={() => console.log('Download whitepaper clicked')}
-                className="min-w-[200px] font-mono font-semibold bg-transparent border border-white text-white hover:bg-white hover:text-black transition-all"
+                className="min-w-[200px] font-mono font-semibold bg-transparent border border-white text-white hover:bg-white hover:text-black transition-all "
               >
                 Download Whitepaper
               </Button>
