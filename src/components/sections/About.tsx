@@ -105,12 +105,13 @@ export const About: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster="/about-style.mp4"
+                    poster="/about-style.jpg"
                     className="w-auto h-auto object-contain rounded-xl lg:h-[calc(2*24rem+2rem)] max-h-[800px]"
                     style={{ aspectRatio: '864/1280' }}
                   >
                     <source src="/about-style.mp4" type="video/mp4" />
                   </video>
+
                 </div>
               </div>
             </div>
