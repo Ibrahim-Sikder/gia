@@ -16,10 +16,10 @@ export const Hero: React.FC = () => {
         muted
         loop
         playsInline
-        poster="/gia-heros-main-3200x2160.jpg"
+        poster="/hero-first.mp4"
         className="absolute inset-0 w-full h-full object-cover object-top"
       >
-        <source src="/gia-heros-main-3200x2160.mp4" type="video/mp4" />
+        <source src="/hero-first.mp4" type="video/mp4" />
       </video>
 
       {/* Video Overlay */}

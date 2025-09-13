@@ -192,11 +192,11 @@ export const Whitepaper: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster="/gia-heros-presentation-1280x864.jpg"
+                    poster="/highlight.mp4"
                     className="w-auto h-auto max-w-full max-h-[480px] object-contain rounded-xl"
                     style={{ aspectRatio: '1280/864' }}
                   >
-                    <source src="/gia-heros-presentation-1280x864.mp4" type="video/mp4" />
+                    <source src="/highlight.mp4" type="video/mp4" />
                   </video>
                 </div>
               </motion.div>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '../ui/Button';
-import { 
-  CpuChipIcon, 
-  ShieldCheckIcon, 
-  BoltIcon, 
-  GlobeAltIcon, 
+import {
+  CpuChipIcon,
+  ShieldCheckIcon,
+  BoltIcon,
+  GlobeAltIcon,
   CircleStackIcon,
-  UserGroupIcon 
+  UserGroupIcon
 } from '@heroicons/react/24/outline';
 
 const features = [
@@ -81,8 +81,8 @@ export const About: React.FC = () => {
             About GIA
           </h2>
           <p className="text-lg md:text-xl text-brand-secondary max-w-3xl mx-auto leading-relaxed">
-            GIA (General Intelligence Architecture) represents the next evolution in blockchain technology, 
-            combining advanced artificial intelligence with decentralized systems to create a truly 
+            GIA (General Intelligence Architecture) represents the next evolution in blockchain technology,
+            combining advanced artificial intelligence with decentralized systems to create a truly
             intelligent and adaptive cryptocurrency ecosystem.
           </p>
         </motion.div>
@@ -105,11 +105,11 @@ export const About: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster="/gia-heros-portrait-animation-864x1280.jpg"
+                    poster="/about-style.mp4"
                     className="w-auto h-auto object-contain rounded-xl lg:h-[calc(2*24rem+2rem)] max-h-[800px]"
                     style={{ aspectRatio: '864/1280' }}
                   >
-                    <source src="/gia-heros-portrait-animation-864x1280.mp4" type="video/mp4" />
+                    <source src="/about-style.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
@@ -184,11 +184,11 @@ export const About: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster="/gia-heros-presentation2-1280x864.jpg"
+                    poster="/feature-style.mp4"
                     className="w-[100%] h-auto max-w-xs max-h-48 object-contain rounded-xl max-h-[480px] mx-auto"
                     style={{ aspectRatio: '1280/864', maxWidth: '640px' }}
                   >
-                    <source src="/gia-heros-presentation2-1280x864.mp4" type="video/mp4" />
+                    <source src="/feature-style.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
@@ -206,9 +206,9 @@ export const About: React.FC = () => {
         >
           <div className="absolute -inset-1 bg-gradient-to-r from-brand-accent via-brand-secondary to-brand-accent rounded-2xl blur-sm opacity-25 group-hover:opacity-75 transition duration-1000" />
           <div className="relative">
-            <img 
-              src="/gia-heros-1280x853.jpg" 
-              alt="GIA Technology" 
+            <img
+              src="/gia-heros-1280x853.jpg"
+              alt="GIA Technology"
               className="w-full h-auto max-w-full object-cover rounded-xl"
               style={{ maxHeight: 'calc(853px * 0.66)' }}
             />
