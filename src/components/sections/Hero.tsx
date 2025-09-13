@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
 
             {/* Animated Subtitle with Typing Effect */}
             <motion.div
-              className="max-w-2xl mb-8 mx-auto"
+              className="max-w-3xl mb-8 mx-auto"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
@@ -82,10 +82,11 @@ export const Hero: React.FC = () => {
                 size="lg"
                 variant="translucent"
                 onClick={() => console.log('Download whitepaper clicked')}
-                className="min-w-[200px]"
+                className="min-w-[200px] bg-transparent border border-white text-white hover:bg-white hover:text-dark-blue transition-all"
               >
                 Download Whitepaper
               </Button>
+
             </motion.div>
 
             {/* Social Links */}

@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 z-50 border-brand-secondary/20"
+      className="fixed top-0 left-0 right-0 z-50 bg-blue-900 border-b border-blue-800"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
             <img
               src="/logo.png"
               alt="GIA Token"
-              className="h-12 w-12 object-contain opacity-90"
+              className="h-12 w-12 object-contain"
             />
           </motion.div>
 
@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-brand-accent transition-colors"
+                className="text-white hover:text-blue-300 transition-colors font-semibold font-mono"
               >
                 {item.name}
               </a>
@@ -71,7 +71,7 @@ export const Header: React.FC = () => {
               onClick={handleConnectWallet}
               disabled={isConnecting}
               variant="outline"
-              className="min-w-[140px]"
+              className="min-w-[140px] font-mono font-semibold border-white text-white hover:bg-blue-800"
             >
               {isConnecting
                 ? 'Connecting...'
@@ -85,7 +85,7 @@ export const Header: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-white hover:text-brand-accent focus:outline-none"
+              className="text-white hover:text-blue-300 focus:outline-none"
             >
               {isMobileMenuOpen ? (
                 <XMarkIcon className="h-6 w-6" />
