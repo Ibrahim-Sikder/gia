@@ -82,7 +82,7 @@ export const Hero: React.FC = () => {
                 size="lg"
                 variant="translucent"
                 onClick={() => console.log('Download whitepaper clicked')}
-                className="min-w-[200px] bg-transparent border border-white text-white hover:bg-white hover:text-dark-blue transition-all"
+                className="min-w-[200px] font-mono font-semibold bg-transparent border border-white text-white hover:bg-white hover:text-black transition-all"
               >
                 Download Whitepaper
               </Button>
