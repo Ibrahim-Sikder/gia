@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 z-50 bg-blue-900 border-b border-blue-800"
+      className="fixed top-0 left-0 right-0 z-50 bg-brand-dark/90 border-b border-brand-secondary/20"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
